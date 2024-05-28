@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="پروژه ریاضی">
+  <meta name="author" content="Mohammad Tinati">
+  <title>عملگر ماتریس</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>عملگر ماتریس</h1>
+    <form id="matrixForm">
+      <div class="input-group">
+        <label for="matrix1Input">ماتریس اول:</label>
+        <textarea id="matrix1Input" rows="5" placeholder="... ماتریس اول خود را وارد کنید"></textarea>
+      </div>
+      <div class="input-group">
+        <label for="matrix2Input">ماتریس دوم:</label>
+        <textarea id="matrix2Input" rows="5" placeholder=" ... ماتریس دوم خود را وارد کنید  "></textarea>
+      </div>
+      <div class="radio-group">
+        <input type="radio" id="addition" name="operation" value="addition" checked>
+        <label for="addition">جمع</label>
+        <input type="radio" id="subtraction" name="operation" value="subtraction">
+        <label for="subtraction">تفریق</label>
+        <input type="radio" id="multiplication" name="operation" value="multiplication">
+        <label for="multiplication">ضرب</label>
+        <input type="radio" id="division" name="operation" value="division">
+        <label for="division">تقسیم</label>
+      </div>
+      <input type="submit" value="اعمال عملیات">
+    </form>
+    <h2>نتیجه:</h2>
+    <div id="result"></div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
+<!--
+     ادرس صفحه گیت هاب : https://github.com/M-Tinati
+
+     github adress : https://github.com/M-Tinati 
+
+     پروژه ماتریس ها در جاوااسکریپت
+     محمد طینتی
+     mohammad tinati
+-->
